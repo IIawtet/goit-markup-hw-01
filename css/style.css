@@ -1,0 +1,174 @@
+body {
+font-family: "roboto", sans-serif;
+color: #212121;
+}
+/* _____________________HEADER_____________________ */
+.header-logo{
+    font-family: 'Raleway' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+}
+
+.logo-web {
+    color: #2196F3;
+    }
+.link {text-decoration: none;}
+
+
+.list {list-style: none;}
+
+button:hover,.footer-logo:hover,.footer-logo:focus {cursor: pointer;}
+
+.header-link{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+.header-link:hover ,.header-link:focus ,.contacts:hover,.contacts:focus
+ {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+/* __________________________MAIN_____1section______________________ */
+.contact-mail,
+.contact-number {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+    color: #757575;
+}
+.upper-section{
+    background: #2F303A;
+}
+.main-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;}
+
+.upper-section-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+     /*Розумію що бекграунд то окремий елемент з наступного уроку, тому поки так */
+}
+/* _______________________________2section______________________ */
+.about-item-upper {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.about-item-lower{
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.about-work-header,
+.about-team-header
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*__________________________________3section_____________________*/
+.team-name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 0.84;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team-position{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 0.84;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+/*__________________________________footer_____________________*/
+.footer {
+    background: #2F303A;
+}
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;    
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.adress{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+        
+}
+.footer-contacts{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/*_________________________________PORTFOLIO_____________________*/
+.portfolio-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.portfolio-button:hover, .portfolio-button:focus {
+color: #FFFFFF;
+background: #2196F3;
+/*бекграунд батон на наступному уроці, а поки так*/
+}
+.project{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.project-direction{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
